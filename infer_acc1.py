@@ -218,7 +218,7 @@ def main():
     audio_clip = audio_clip.set_duration(args.L / final_fps)
 
     video = pipe(
-        ref_img_pil,
+        ref_image_pil,
         inputs_dict['audio'],
         poses_tensor[:,:,:args.L,...],
         width,
