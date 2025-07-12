@@ -193,7 +193,7 @@ def main():
     save_path.mkdir(exist_ok=True, parents=True)
     ref_s = refimg_name.split('/')[-1].split('.')[0]
     #save_name = f"{save_path}/{ref_s}-a-{audio_name}-i{start_idx}"
-    save_name - "kaggle/working/result"
+    save_name - "/kaggle/working/result"
     
     ref_image_pil = Image.open(inputs_dict['refimg']).resize((args.W, args.H))
 
